@@ -18,7 +18,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "rbuild": "react-scripts build",
+    "redirect": "echo '/* /index.html 200' | cat >build/_redirects",
+    "build": "npm-run-all -p rbuild redirect ",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cy:open": "cypress open",
