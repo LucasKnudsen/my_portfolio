@@ -20,7 +20,7 @@
     "start": "react-scripts start",
     "rbuild": "react-scripts build",
     "redirect": "echo '/* /index.html 200' | cat >build/_redirects",
-    "build": "npm-run-all -p rbuild redirect ",
+    "build": "react-scripts build && echo '/* /index.html 200' | cat >build/_redirects",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cy:open": "cypress open",
