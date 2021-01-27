@@ -1,10 +1,20 @@
 [
     {
         "id": 1,
-        "name": "My First Website"
+        "name": "My First Website",
+        "image": "https://i.pinimg.com/originals/67/b2/a9/67b2a9ba5e85822f237caae92111e938.gif",
+        "description": "This rocket symbolizes my current educational journey. To the moon!"
     },
     {
         "id": 2,
-        "name": "Fizzbuzz"
+        "name": "Fizzbuzz",
+        "image": "https://images.unsplash.com/photo-1591656938066-cf1dfcb57661?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "description": "A React master during the day, but a backend Ruby genious by night"
+    },
+    {
+        "id": 3,
+        "name": "Mobile UX",
+        "image": "https://images.unsplash.com/photo-1606064465922-c5e6f1f3497b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "description": "Now, the phone snoozed off before I was able to take the snap shot.. But when you see what's ACTUALLY on the phone, you'll be mindboggled!"
     }
 ]
