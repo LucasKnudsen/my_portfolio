@@ -47,7 +47,7 @@
   "devDependencies": {
     "cypress": "^6.3.0"
   },
-  "main": "index.js",
+  "main": "index.html",
   "author": "Lucas <laksteelhouse@gmail.com>",
   "license": "MIT"
 }
