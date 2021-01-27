@@ -10,7 +10,7 @@ describe ("User can navigate the app", () => {
         });
 
         it("displays About Me header", () => {
-            cy.get("about-header").should("contain", "About Me");
+            cy.get("#about-header").should("contain", "About Me");
         });
 
         it("displays component name in url", () => {
@@ -32,7 +32,7 @@ describe ("User can navigate the app", () => {
         });
 
         it("displays My Projects header", () => {
-            cy.get("projects-header").should("contain", "My Projects");
+            cy.get("#projects-header").should("contain", "My Projects");
         });
 
         it("displays component name in url", () => {
@@ -51,7 +51,7 @@ describe ("User can navigate the app", () => {
     describe("back to My Portfoio/Hello tab and it", () => {
         beforeEach(() => {
             cy.get("#about-tab").click();
-            cy.get("#projects-tab").click();
+            cy.get("#home").click();
         });
 
         it("displays Hello World", () => {
