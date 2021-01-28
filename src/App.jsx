@@ -5,6 +5,7 @@ import Hello from './Hello'
 import Projects from './Projects'
 import About from './About'
 import { Switch, Route } from 'react-router-dom'
+import ContactForm from './ContactForm'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route exact path="/projects" component={Projects}></Route>
         <Hello />
       </Switch>
+      <ContactForm />
       <Footer />
     </>
   )

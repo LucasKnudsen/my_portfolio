@@ -25,6 +25,15 @@ footer {
   text-align: center;
 }
 
+#contact-form {
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+
 .container {
   margin-top: 4em;
 }
