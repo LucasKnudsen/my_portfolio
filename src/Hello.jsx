@@ -5,6 +5,7 @@ const Hello = () => {
     return (
         <Container >
             <h1 id="hello">Hello World</h1>
+            <h1>Hello World igen?</h1>
         </Container>
     )
 }
