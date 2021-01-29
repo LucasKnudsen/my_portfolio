@@ -42,6 +42,27 @@ button, input[type="submit"] {
   font-size: 1.2em;
 }
 
+.cv-img {
+  height: 200px;
+}
+
+.cv-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.cv-form input {
+  display: flex;
+  justify-items: center;
+}
+.ui.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+  
+}
 
 .container {
   margin-top: 4em;

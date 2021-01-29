@@ -5,7 +5,7 @@ import Hello from './Hello'
 import Projects from './Projects'
 import About from './About'
 import { Switch, Route, } from 'react-router-dom'
-import ContactForm from './ContactForm'
+
 import CV from './CV'
 
 const App = () => {
@@ -20,7 +20,7 @@ const App = () => {
         <Hello />
       </Switch>
 
-      <ContactForm />
+     
       <Footer />
     </>
   )
