@@ -35,7 +35,7 @@ class CV extends Component {
 
     const login = (
       <form className="cv-form" action="#" onSubmit={this.authorize}>
-       <img className="cv-img" src="https://images.unsplash.com/photo-1484132286360-7669bdb39f3b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80"/>
+       <img className="cv-img" alt="gin" src="https://images.unsplash.com/photo-1484132286360-7669bdb39f3b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80"/>
        <input type="password" placeholder="Yes, I'm generic.."/>
         <input type="submit" />
       </form>
