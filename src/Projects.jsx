@@ -8,7 +8,7 @@ class Projects extends Component {
     state = {
         projects: []
     };
-
+    
     componentDidMount() {
         axios.get("./data/projects.json").then((response) => {
             this.setState({ projects: response.data });

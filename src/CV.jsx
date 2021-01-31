@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from "axios"
 import { Card, Image } from "semantic-ui-react"
-import { Container, Grid } from "semantic-ui-react"
+import { Container, } from "semantic-ui-react"
 import ContactForm from './ContactForm'
 
 class CV extends Component {
