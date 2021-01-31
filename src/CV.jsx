@@ -53,7 +53,7 @@ class CV extends Component {
     );
 
     return (
-      <div id="authorization">
+      <div id="authorization" >
         <Container>
           
           <h1>{this.state.authorized ? 'Well done' : "what's my 5 o'clock posion?"}</h1>

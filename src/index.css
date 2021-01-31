@@ -42,6 +42,11 @@ button, input[type="submit"] {
   font-size: 1.2em;
 }
 
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
 .cv-img {
   height: 200px;
 }
